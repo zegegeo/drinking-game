@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(go mod:*)",
+      "Bash(go env:*)",
+      "Bash(curl -s http://localhost:5173)",
+      "Bash(lsof -ti:8080)",
+      "Bash(xargs kill:*)",
+      "Bash(curl -s \"https://www.google.com/search?q=骰子吹牛游戏规则\")",
+      "Bash(go build:*)",
+      "Bash(npx vite:*)",
+      "Bash(kill 8662)",
+      "WebFetch(domain:www.baidu.com)",
+      "WebFetch(domain:www.zhihu.com)"
+    ]
+  }
+}
